@@ -1,0 +1,22 @@
+{
+    "name": "ams/etec",
+    "description": "App de socialização entre etecs",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matheus"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Controllers\\":["app/controllers"],
+            "System\\":["app/system"],
+            "Models\\":["app/models"]
+        },
+        "files": [
+            "app/config.php",
+            "app/helpers/functions.php"
+        ]
+    }
+}
